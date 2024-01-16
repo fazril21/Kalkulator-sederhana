@@ -49,7 +49,7 @@ body{
 .result:focus{
     outline: none;
 }
-.delete{
+.fungsi{
     width: 80px;
     height: 80px;
     border-radius: 100%;
@@ -78,10 +78,17 @@ body{
     border-radius: 50px;
     background-color: #A9A9A9;
 }
-.delete, .arithmetic, .number, .number0{
+.fungsi, .arithmetic, .number, .number0{
     margin: 5px;
     font-size: 25px;
 }
-.delete:hover, .arithmetic:hover, .number:hover, .number0:hover{
+.fungsi:hover, .arithmetic:hover, .number:hover, .number0:hover{
+    background-color: white;
+}
+#fungsiAll{
+    width: 175px;
+    border-radius: 50px;
+}
+.arithmetic:focus{
     background-color: white;
 }
